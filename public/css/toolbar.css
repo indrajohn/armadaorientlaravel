@@ -13,3 +13,17 @@
     box-shadow: 0em 0.15em 2em rgb(0 0 0 / 15%);
     font-family: 'Playfair Display'
 }
+.toolbar-list-right{
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+@media(max-width:360px) {
+    .toolbar-image>img {
+        height: auto;
+        width: 150px;
+    }
+    .nav-link{
+        margin:2px 2px;
+    }
+    
+}
