@@ -17,9 +17,9 @@
     </head>
     <body class="antialiased">
         <div id="app" class="w-100 h-100">
-            @include('template.navbar')
-            @yield('content')
-            @include('template.footer')
+            @include('template.navbar');
+            @yield('content');
+            @include('template.footer');
         </div>
     </body>
 </html>
